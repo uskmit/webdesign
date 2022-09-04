@@ -1,0 +1,53 @@
+.grad{
+    height:800px;
+    background:linear-gradient(45deg,red,blue,rgb(62, 255, 62),purple,yellow,pink);
+    font-style: italic;
+}
+   .grad h1{
+        color: whitesmoke;
+    }
+
+div{
+ margin:0;
+ padding:0;
+ height:50%;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    /* background: yellowgreen; */
+    width:400px;
+    border: 10px;
+    text-align:center;
+}
+.login h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.login p{
+    font-size: 20px;
+    margin:30px;
+    text-align: left;
+}
+.login input {
+    font-size:20px ;
+    width:250px ;
+    padding:5px 10px ;
+    border-radius:10px ;
+    background-color: silver;
+}
+
+.login button{
+    font-size:20px ;
+    padding: 5px 10px;
+    width: 180px;
+    font-weight: bold;
+    background-color:rgb(40, 172, 220);
+    border-radius:10px;
+}
